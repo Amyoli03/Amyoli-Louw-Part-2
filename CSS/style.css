@@ -1,0 +1,76 @@
+/*GLOBAL STYLES*/
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+header{
+    background-color: clear;
+    text-align: center;
+    padding: 25px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center
+}
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-image:url(../Images/Building1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(50, 103, 50);
+    padding: 0px;
+    margin: 20px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin: 0 15px;
+}
+.navbar a:hover{
+    background-color: rgb(52, 32, 31);
+}
+.navbar li{
+    float: left;
+}
+footer {
+    display: block;
+    clear: both;
+    background-color: rgb(69, 37, 37);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+
+}
+pre{
+    font-family: Arial;
+}
